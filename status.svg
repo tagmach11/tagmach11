@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="888" height="640" viewBox="0 0 888 640" role="img" aria-label="Player status screen">
+  <style>
+    .ui { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .title { fill: #E8D48B; font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+    .label { fill: #8B9BB4; font-size: 12px; letter-spacing: 2px; }
+    .value { fill: #F3EAD3; font-size: 13px; letter-spacing: 0.4px; }
+    .name { fill: #F3EAD3; font-size: 26px; font-weight: 700; letter-spacing: 2px; }
+    .job { fill: #7EC8E3; font-size: 13px; letter-spacing: 2px; }
+    .num { fill: #E8D48B; font-size: 20px; font-weight: 700; }
+    .small { fill: #E8D48B; font-size: 12px; font-weight: 700; }
+    .hint { fill: #8B9BB4; font-size: 11px; letter-spacing: 1px; }
+    .cmd { fill: #F3EAD3; font-size: 15px; letter-spacing: 2px; }
+    .cmd-on { fill: #E8D48B; font-size: 15px; font-weight: 700; letter-spacing: 2px; }
+    .slot { fill: #F3EAD3; font-size: 11px; letter-spacing: 0.5px; }
+    .slot-n { fill: #E8D48B; font-size: 11px; font-weight: 700; }
+  </style>
+
+  <rect width="888" height="640" fill="#070B14"/>
+  <rect x="8" y="8" width="872" height="624" fill="none" stroke="#1C2740" stroke-width="2"/>
+
+  <rect x="24" y="28" width="840" height="150" rx="2" fill="#121C31" stroke="#E8D48B" stroke-width="3"/>
+  <rect x="30" y="34" width="828" height="138" rx="1" fill="none" stroke="#8A7030" stroke-width="1.5"/>
+  <rect x="44" y="17" width="88" height="22" fill="#121C31" stroke="#E8D48B" stroke-width="2"/>
+  <text x="88.0" y="33" text-anchor="middle" class="title">STATUS</text>
+  <text x="52" y="72" class="ui label">NAME</text>
+  <text x="122" y="74" class="ui name">borico</text>
+  <text x="52" y="104" class="ui job">CLOUD OPS ENGINEER</text>
+  <text x="52" y="130" class="ui hint">incident trainer  /  partner automation</text>
+
+  <text x="430" y="64" class="ui label">LV</text>
+  <text x="478" y="66" class="ui num">24</text>
+  <text x="560" y="64" class="ui label">ID</text>
+  <text x="600" y="64" class="ui value">tagmach11</text>
+
+  <text x="430" y="98" class="ui label">HP</text>
+  <rect x="467" y="83" width="244" height="18" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="470" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="480" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="490" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="500" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="510" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="520" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="530" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="540" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="550" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="560" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="570" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="580" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="590" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="600" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="610" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="620" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="630" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="640" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="650" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="660" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="670" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="680" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="690" y="86" width="8" height="12" fill="#3DDC84"/>
+  <rect x="700" y="86" width="8" height="12" fill="#3DDC84"/>
+  <text x="730" y="98" class="ui small">128/128</text>
+
+  <text x="430" y="126" class="ui label">MP</text>
+  <rect x="467" y="111" width="244" height="18" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="470" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="480" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="490" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="500" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="510" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="520" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="530" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="540" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="550" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="560" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="570" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="580" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="590" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="600" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="610" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="620" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="630" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="640" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="650" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="660" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="670" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="680" y="114" width="8" height="12" fill="#5B9DFF"/>
+  <rect x="690" y="114" width="8" height="12" fill="#1C2740"/>
+  <rect x="700" y="114" width="8" height="12" fill="#1C2740"/>
+  <text x="730" y="126" class="ui small">90/100</text>
+
+  <text x="430" y="154" class="ui label">EXP</text>
+  <rect x="467" y="139" width="244" height="18" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="470" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="480" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="490" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="500" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="510" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="520" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="530" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="540" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="550" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="560" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="570" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="580" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="590" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="600" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="610" y="142" width="8" height="12" fill="#E0B84A"/>
+  <rect x="620" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="630" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="640" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="650" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="660" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="670" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="680" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="690" y="142" width="8" height="12" fill="#1C2740"/>
+  <rect x="700" y="142" width="8" height="12" fill="#1C2740"/>
+  <text x="730" y="154" class="ui small">NEXT 640</text>
+
+  <rect x="24" y="196" width="360" height="316" rx="2" fill="#121C31" stroke="#E8D48B" stroke-width="3"/>
+  <rect x="30" y="202" width="348" height="304" rx="1" fill="none" stroke="#8A7030" stroke-width="1.5"/>
+  <rect x="44" y="185" width="99" height="22" fill="#121C31" stroke="#E8D48B" stroke-width="2"/>
+  <text x="93.5" y="201" text-anchor="middle" class="title">ABILITY</text>
+  <text x="52" y="250" class="ui label">STR</text>
+  <text x="108" y="252" class="ui num">90</text>
+  <text x="168" y="250" class="ui value">Java</text>
+  <rect x="49" y="257" width="284" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="52" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="62" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="72" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="82" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="92" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="102" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="112" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="122" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="132" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="142" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="152" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="162" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="172" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="182" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="192" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="202" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="212" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="222" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="232" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="242" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="252" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="262" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="272" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="282" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="292" y="260" width="8" height="8" fill="#E8D48B"/>
+  <rect x="302" y="260" width="8" height="8" fill="#1C2740"/>
+  <rect x="312" y="260" width="8" height="8" fill="#1C2740"/>
+  <rect x="322" y="260" width="8" height="8" fill="#1C2740"/>
+  <text x="52" y="296" class="ui label">MAG</text>
+  <text x="108" y="298" class="ui num">88</text>
+  <text x="168" y="296" class="ui value">Spring Boot</text>
+  <rect x="49" y="303" width="284" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="52" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="62" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="72" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="82" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="92" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="102" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="112" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="122" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="132" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="142" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="152" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="162" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="172" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="182" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="192" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="202" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="212" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="222" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="232" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="242" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="252" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="262" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="272" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="282" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="292" y="306" width="8" height="8" fill="#E8D48B"/>
+  <rect x="302" y="306" width="8" height="8" fill="#1C2740"/>
+  <rect x="312" y="306" width="8" height="8" fill="#1C2740"/>
+  <rect x="322" y="306" width="8" height="8" fill="#1C2740"/>
+  <text x="52" y="342" class="ui label">INT</text>
+  <text x="108" y="344" class="ui num">85</text>
+  <text x="168" y="342" class="ui value">AWS</text>
+  <rect x="49" y="349" width="284" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="52" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="62" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="72" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="82" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="92" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="102" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="112" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="122" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="132" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="142" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="152" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="162" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="172" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="182" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="192" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="202" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="212" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="222" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="232" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="242" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="252" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="262" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="272" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="282" y="352" width="8" height="8" fill="#E8D48B"/>
+  <rect x="292" y="352" width="8" height="8" fill="#1C2740"/>
+  <rect x="302" y="352" width="8" height="8" fill="#1C2740"/>
+  <rect x="312" y="352" width="8" height="8" fill="#1C2740"/>
+  <rect x="322" y="352" width="8" height="8" fill="#1C2740"/>
+  <text x="52" y="388" class="ui label">DEX</text>
+  <text x="108" y="390" class="ui num">80</text>
+  <text x="168" y="388" class="ui value">React / TS</text>
+  <rect x="49" y="395" width="284" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="52" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="62" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="72" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="82" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="92" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="102" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="112" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="122" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="132" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="142" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="152" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="162" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="172" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="182" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="192" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="202" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="212" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="222" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="232" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="242" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="252" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="262" y="398" width="8" height="8" fill="#E8D48B"/>
+  <rect x="272" y="398" width="8" height="8" fill="#1C2740"/>
+  <rect x="282" y="398" width="8" height="8" fill="#1C2740"/>
+  <rect x="292" y="398" width="8" height="8" fill="#1C2740"/>
+  <rect x="302" y="398" width="8" height="8" fill="#1C2740"/>
+  <rect x="312" y="398" width="8" height="8" fill="#1C2740"/>
+  <rect x="322" y="398" width="8" height="8" fill="#1C2740"/>
+  <text x="52" y="434" class="ui label">DEF</text>
+  <text x="108" y="436" class="ui num">84</text>
+  <text x="168" y="434" class="ui value">Docker / Linux</text>
+  <rect x="49" y="441" width="284" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="52" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="62" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="72" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="82" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="92" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="102" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="112" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="122" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="132" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="142" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="152" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="162" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="172" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="182" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="192" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="202" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="212" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="222" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="232" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="242" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="252" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="262" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="272" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="282" y="444" width="8" height="8" fill="#E8D48B"/>
+  <rect x="292" y="444" width="8" height="8" fill="#1C2740"/>
+  <rect x="302" y="444" width="8" height="8" fill="#1C2740"/>
+  <rect x="312" y="444" width="8" height="8" fill="#1C2740"/>
+  <rect x="322" y="444" width="8" height="8" fill="#1C2740"/>
+  <text x="52" y="480" class="ui label">VIT</text>
+  <text x="108" y="482" class="ui num">82</text>
+  <text x="168" y="480" class="ui value">MySQL</text>
+  <rect x="49" y="487" width="284" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="52" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="62" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="72" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="82" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="92" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="102" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="112" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="122" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="132" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="142" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="152" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="162" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="172" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="182" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="192" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="202" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="212" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="222" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="232" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="242" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="252" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="262" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="272" y="490" width="8" height="8" fill="#E8D48B"/>
+  <rect x="282" y="490" width="8" height="8" fill="#1C2740"/>
+  <rect x="292" y="490" width="8" height="8" fill="#1C2740"/>
+  <rect x="302" y="490" width="8" height="8" fill="#1C2740"/>
+  <rect x="312" y="490" width="8" height="8" fill="#1C2740"/>
+  <rect x="322" y="490" width="8" height="8" fill="#1C2740"/>
+
+  <rect x="404" y="196" width="460" height="316" rx="2" fill="#121C31" stroke="#E8D48B" stroke-width="3"/>
+  <rect x="410" y="202" width="448" height="304" rx="1" fill="none" stroke="#8A7030" stroke-width="1.5"/>
+  <rect x="424" y="185" width="77" height="22" fill="#121C31" stroke="#E8D48B" stroke-width="2"/>
+  <text x="462.5" y="201" text-anchor="middle" class="title">SKILL</text>
+  <rect x="424" y="224" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="434" y="252" class="ui slot">JAVA</text>
+  <text x="434" y="272" class="ui slot-n">90</text>
+  <rect x="463" y="259" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="466" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="473" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="480" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="487" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="494" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="501" y="262" width="6" height="8" fill="#1C2740"/>
+  <rect x="534" y="224" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="544" y="252" class="ui slot">SPRING</text>
+  <text x="544" y="272" class="ui slot-n">88</text>
+  <rect x="573" y="259" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="576" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="583" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="590" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="597" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="604" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="611" y="262" width="6" height="8" fill="#1C2740"/>
+  <rect x="644" y="224" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="654" y="252" class="ui slot">AWS</text>
+  <text x="654" y="272" class="ui slot-n">85</text>
+  <rect x="683" y="259" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="686" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="693" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="700" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="707" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="714" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="721" y="262" width="6" height="8" fill="#1C2740"/>
+  <rect x="754" y="224" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="764" y="252" class="ui slot">LINUX</text>
+  <text x="764" y="272" class="ui slot-n">84</text>
+  <rect x="793" y="259" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="796" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="803" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="810" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="817" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="824" y="262" width="6" height="8" fill="#E8D48B"/>
+  <rect x="831" y="262" width="6" height="8" fill="#1C2740"/>
+  <rect x="424" y="296" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="434" y="324" class="ui slot">DOCKER</text>
+  <text x="434" y="344" class="ui slot-n">82</text>
+  <rect x="463" y="331" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="466" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="473" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="480" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="487" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="494" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="501" y="334" width="6" height="8" fill="#1C2740"/>
+  <rect x="534" y="296" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="544" y="324" class="ui slot">MYSQL</text>
+  <text x="544" y="344" class="ui slot-n">82</text>
+  <rect x="573" y="331" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="576" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="583" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="590" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="597" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="604" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="611" y="334" width="6" height="8" fill="#1C2740"/>
+  <rect x="644" y="296" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="654" y="324" class="ui slot">REACT</text>
+  <text x="654" y="344" class="ui slot-n">80</text>
+  <rect x="683" y="331" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="686" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="693" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="700" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="707" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="714" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="721" y="334" width="6" height="8" fill="#1C2740"/>
+  <rect x="754" y="296" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="764" y="324" class="ui slot">TS</text>
+  <text x="764" y="344" class="ui slot-n">80</text>
+  <rect x="793" y="331" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="796" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="803" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="810" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="817" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="824" y="334" width="6" height="8" fill="#E8D48B"/>
+  <rect x="831" y="334" width="6" height="8" fill="#1C2740"/>
+  <rect x="424" y="368" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="434" y="396" class="ui slot">GIT</text>
+  <text x="434" y="416" class="ui slot-n">84</text>
+  <rect x="463" y="403" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="466" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="473" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="480" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="487" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="494" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="501" y="406" width="6" height="8" fill="#1C2740"/>
+  <rect x="534" y="368" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="544" y="396" class="ui slot">MAVEN</text>
+  <text x="544" y="416" class="ui slot-n">78</text>
+  <rect x="573" y="403" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="576" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="583" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="590" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="597" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="604" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="611" y="406" width="6" height="8" fill="#1C2740"/>
+  <rect x="644" y="368" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="654" y="396" class="ui slot">GRADLE</text>
+  <text x="654" y="416" class="ui slot-n">76</text>
+  <rect x="683" y="403" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="686" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="693" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="700" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="707" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="714" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="721" y="406" width="6" height="8" fill="#1C2740"/>
+  <rect x="754" y="368" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="764" y="396" class="ui slot">NGINX</text>
+  <text x="764" y="416" class="ui slot-n">72</text>
+  <rect x="793" y="403" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="796" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="803" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="810" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="817" y="406" width="6" height="8" fill="#E8D48B"/>
+  <rect x="824" y="406" width="6" height="8" fill="#1C2740"/>
+  <rect x="831" y="406" width="6" height="8" fill="#1C2740"/>
+  <rect x="424" y="440" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="434" y="468" class="ui slot">HTML/CSS</text>
+  <text x="434" y="488" class="ui slot-n">75</text>
+  <rect x="463" y="475" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="466" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="473" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="480" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="487" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="494" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="501" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="534" y="440" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="544" y="468" class="ui slot">VITE</text>
+  <text x="544" y="488" class="ui slot-n">70</text>
+  <rect x="573" y="475" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="576" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="583" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="590" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="597" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="604" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="611" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="644" y="440" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="654" y="468" class="ui slot">TERRAFORM</text>
+  <text x="654" y="488" class="ui slot-n">62</text>
+  <rect x="683" y="475" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="686" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="693" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="700" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="707" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="714" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="721" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="754" y="440" width="102" height="64" fill="#0C1424" stroke="#2A3A58" stroke-width="1.5"/>
+  <text x="764" y="468" class="ui slot">FLUTTER</text>
+  <text x="764" y="488" class="ui slot-n">55</text>
+  <rect x="793" y="475" width="47" height="14" fill="#070B14" stroke="#1C2740" stroke-width="1"/>
+  <rect x="796" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="803" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="810" y="478" width="6" height="8" fill="#E8D48B"/>
+  <rect x="817" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="824" y="478" width="6" height="8" fill="#1C2740"/>
+  <rect x="831" y="478" width="6" height="8" fill="#1C2740"/>
+
+  <rect x="24" y="530" width="840" height="86" rx="2" fill="#121C31" stroke="#E8D48B" stroke-width="3"/>
+  <rect x="30" y="536" width="828" height="74" rx="1" fill="none" stroke="#8A7030" stroke-width="1.5"/>
+  <rect x="44" y="519" width="99" height="22" fill="#121C31" stroke="#E8D48B" stroke-width="2"/>
+  <text x="93.5" y="535" text-anchor="middle" class="title">COMMAND</text>
+  <polygon points="52,576 64,570 64,582" fill="#E8D48B"/>
+  <text x="76" y="580" class="ui cmd-on">TROUBLEOPS</text>
+  <text x="76" y="598" class="ui hint">Java / Spring incident lab</text>
+  <text x="310" y="580" class="ui cmd">PARTNEROPS</text>
+  <text x="310" y="598" class="ui hint">ACE / CRM automation</text>
+  <text x="540" y="580" class="ui cmd">RECIPEBOOK</text>
+  <text x="540" y="598" class="ui hint">Dart / TypeScript</text>
+  <text x="760" y="580" class="ui hint">Z : SEL</text>
+</svg>
