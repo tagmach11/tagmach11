@@ -17,20 +17,12 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=tagmach11&show_icons=true&theme=default&hide_border=true" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=tagmach11&hide_border=true" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=tagmach11&show_icons=true&theme=default&hide_border=true" />
+<img height="165" src="https://streak-stats.demolab.com/?user=tagmach11&hide_border=true" />
 </div>
 
-### 🏆 Trophies
-
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=tagmach11&theme=flat&no-frame=true&row=1&margin-w=15" />
-</div>
-
-### 🌱 Activity Graph
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tagmach11&theme=minimal&hide_border=true" />
+<img height="165" src="https://github-readme-stats-phi.vercel.app/api/top-langs/?username=tagmach11&layout=compact&hide_border=true&theme=default" />
 </div>
 
 <div align="center">
